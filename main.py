@@ -16,7 +16,7 @@ from langchain_openai import AzureChatOpenAI
 app = FastAPI()
 API_KEY = "37fdc7e9f68374473f706d1a2bc85ad26e59b5f77cae8ebb3226d7dacf138598"
 # load_dotenv()
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "9jtu1eciaHSzdeDLPIoj8Q7SS21lUZC7S40IlTVa4fx0WEtPhbkwJQQJ99BHACYeBjFXJ3w3AAAAACOGnXl8"
 
 class QueryRequest(BaseModel):
     documents: str
